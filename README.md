@@ -37,7 +37,7 @@ For each match, there are four files files:
 * `{id}_dynamic_events.csv` contains our Game Intelligence's dynamic events file (See further for specs.)
 * `{id}_phases_of_play.csv` contains our Game Intelligence's PHASES OF PLAY framework file. (See further for specs.)
 
-#### Tracking Data Description
+### 📍 Tracking Data Description
 
 The tracking data is a list. Each element of the list is the result of the tracking for a frame, it's a dictionary with keys:
 
@@ -63,7 +63,7 @@ For the spatial coordinates, the unit of the field modelization is the meter, th
 The x axis is the long side and the y axis in the short side.
 
 Here is an illustration for a field of size 105mx68m.
-![Field modelization for a pitch of size 105x68](resources/field.jpg)
+![Field modelization for a pitch of size 105x68](assets/field.jpg)
 
 ### Physical Data (Aggregates)
 
@@ -71,7 +71,7 @@ The physical data is aggregated at a player-group-season level and contains the 
 The dataset is filtered for performances above 60 mins only (sub players wouldn't appear unless they've played more than 60mins)
 
 
-#### Dynamic Event Data
+### ⚡ Dynamic Event Data
 
 The dynamic_events data is a CSV. Each row corresponds to a specific event_id belonging to 4 subcategories.
 Note:
@@ -80,7 +80,7 @@ Note:
 
 For a full documentation of dynamic_events, refer to this [documentation here](https://26560301.fs1.hubspotusercontent-eu1.net/hubfs/26560301/Guides/Dynamic%20Events/20250216%20-%20Dynamic%20Events%20CSV%20Specifications.pdf)
 
-#### Phases of Play File
+### 🔄 Phases of Play File
 
 The phase of play data is CSV. Each row corresponds to the start and end frames of a given phase
 
@@ -90,19 +90,31 @@ The phase of play data is CSV. Each row corresponds to the start and end frames 
 
 For detailed information on phases of play, refer to this [documentation](https://26560301.fs1.hubspotusercontent-eu1.net/hubfs/26560301/Guides/Phases%20of%20Play/20250216%20-%20Phases%20of%20Play%20CSV%20Specifications.pdf)
 
-### Limitations
+## ⚠️ Limitations
 
-#### TRACKING
+### TRACKING
 * Some data points are erroneous. Around 97% of the player identity we provide are accurate.
 * Some speed or acceleration smoothing and control should be applied to the raw data.
 
 ## Working with the data
 
-In the `Resources` folder, we've provided an array of code and notebooks that provides a starting point to work with the tracking data. To get started visit the Kloppy tutorial or dive into the Tutorials Folder. SkillCorner customers will also find commented code they can use to connect to their match_ids using their credentials.
+In the [**`notebooks/tutorials`**](notebooks/tutorials/README.md) folder, we've provided an array of notebooks that provide a starting point to work with the tracking data. Reusable Python code has been organized into the `src/` directory. SkillCorner customers will also find commented code they can use to connect to their match_ids using their credentials.
 
 Onlines version are available as well for:
 * TRACKING Notebook: [GoogleColab](https://colab.research.google.com/drive/16JTBpuoDFoZ-PRiztLX4CPZmCatKtem7).
 * SKILLCORNER VIZ visualization Library: [GoogleColab](https://colab.research.google.com/drive/1-uD-kWH7ya-PyG585L2qymVcQrBTtjFo#scrollTo=z5B8GqPiCGan)
+
+## 🏗️ Repository Structure & Contributing
+
+To maintain clarity and structure, please follow this framework when adding new content:
+
+* **`data/`**: Strictly for datasets (e.g. JSON, CSV). Use `data/matches/` for raw data and `data/aggregates/` for processed data.
+* **`notebooks/`**: Strictly for Jupyter notebooks.
+  * `notebooks/tutorials/`: Nested by path (e.g., `01_Getting_Started...`, `02_Working_with_Game_Intelligence...`, `03_Basics_of_Tracking...`).
+  * `notebooks/exploratory/`: Private local folder for drafts (Git ignored).
+* **`src/`**: Reusable Python source code. Place data loading scripts in `src/data/`, feature engineering in `src/features/`, and reporting visuals in `src/visualization/`.
+* **`assets/`**: Static files like images for documentation.
+* **`archive/`**: Unused, testing, or scratch files (ignored by Git).
 
 ## Future works
 
