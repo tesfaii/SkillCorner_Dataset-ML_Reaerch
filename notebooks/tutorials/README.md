@@ -36,7 +36,3 @@ Welcome to the SkillCorner Open Data tutorials. We've organized our tutorials in
 | [**Kloppy Integration**](03_Basics_of_Tracking/Open_Data_Getting_Started_with_Tracking_and_Kloppy_Tutorial.ipynb) | Using the industry-standard Kloppy library for data standardization. |
 
 ---
-
-## 🎨 Featured: Tracking Open Data Pipeline
-
-![Tracking Tutorial Pipeline](../../assets/tracking_tutorial_pipeline.png)
