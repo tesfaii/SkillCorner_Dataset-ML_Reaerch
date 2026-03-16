@@ -16,3 +16,5 @@ venv/
 # Project-specific
 archive/
 notebooks/exploratory/
+
+.agents/
