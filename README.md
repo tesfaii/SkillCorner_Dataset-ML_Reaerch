@@ -98,9 +98,16 @@ For detailed information on phases of play, refer to this [documentation](https:
 
 ## Working with the data
 
-In the [**`notebooks/tutorials`**](notebooks/tutorials/README.md) folder, we've provided an array of notebooks that provide a starting point to work with the tracking data. Reusable Python code has been organized into the `src/` directory. SkillCorner customers will also find commented code they can use to connect to their match_ids using their credentials.
+We've organized our tutorials into logical learning paths to help you navigate the data. You can access all our [**Tutorial Notebooks in the `notebooks/tutorials` folder**](notebooks/tutorials/README.md):
 
-Onlines version are available as well for:
+* **Path 01: Getting Started with SkillCorner Data** - Focusing on foundational performance data and basic normalization workflows.
+* **Path 02: Working with Game Intelligence & Dynamic Events** - Deep dives into contextual data layers (Dynamic Events, Phases of Play, Off-ball Runs, Animations, and Custom Metrics).
+* **Path 03: Basics of Tracking** - Working directly with raw X/Y coordinates and spatial data formats.
+* **Path 04: Visualization Bank
+
+Additionally, reusable Python code for loading and modeling data has been organized into the [**`src/`**](src/README.md) directory. SkillCorner customers will also find commented code they can use to connect to their match_ids using their credentials.
+
+Online versions are available as well for:
 * TRACKING Notebook: [GoogleColab](https://colab.research.google.com/drive/16JTBpuoDFoZ-PRiztLX4CPZmCatKtem7).
 * SKILLCORNER VIZ visualization Library: [GoogleColab](https://colab.research.google.com/drive/1-uD-kWH7ya-PyG585L2qymVcQrBTtjFo#scrollTo=z5B8GqPiCGan)
 

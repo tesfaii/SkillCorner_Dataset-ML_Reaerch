@@ -1,6 +1,10 @@
 # 📦 Source Code (src)
 
+⬅️ [Back to Main Repository README](../README.md)
+
 This directory contains reusable Python modules for loading, processing, and visualizing SkillCorner data.
+
+💡 *Note: If you want to see these source files in action, please explore the [**Learning Paths in our Tutorials section**](../notebooks/tutorials/README.md).*
 
 ## 🏗️ Structure
 
