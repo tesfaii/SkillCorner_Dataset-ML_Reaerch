@@ -16,8 +16,6 @@ Welcome to the SkillCorner Open Data tutorials. We've organized our tutorials in
 | [**Data Normalization Basics**](01_Getting_Started_with_SkillCorner_Data/DATA_NORMALIZATION_BASICS.md) | Understanding P90/P60 normalization and filtering thresholds. |
 | [**Visualization with SkillCorner**](01_Getting_Started_with_SkillCorner_Data/Part1_Visualization_with_SkillCorner_Tutorial.ipynb) | Master the display of SkillCorner data using high-fidelity visualization techniques. |
 | [**Multiple Metrics & Z-Scores**](01_Getting_Started_with_SkillCorner_Data/Part2_Multiple_Metrics_and_Z_Scores_Tutorial.ipynb) | Learn how to normalize and compare different mechanical metrics. |
-| [**Sectioned Summary Table**](04_Visualizations/Sectioned_Summary_Table_Viz_Tutorial.ipynb) | Create a comprehensive table comparing players across multiple metric categories. |
-
 ---
 
 ## 🧠 Path 02: Working with Game Intelligence & Dynamic Events
