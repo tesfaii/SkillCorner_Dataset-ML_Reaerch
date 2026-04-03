@@ -125,7 +125,6 @@ To maintain clarity and structure, please follow this framework when adding new 
 
 ## Future works
 
-* We'll be hosting a hackathon in collaboration with [PySport](pysport.org/analytics-cup) !
 * We intend to open source more tooling to help people get started with our data.
 * We are not an event data provider ourself, though we intend to provide some tools to synchronize tracking and event data, that you'll be able to use if you can access event data.
 

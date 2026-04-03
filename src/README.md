@@ -12,9 +12,10 @@ This directory contains reusable Python modules for loading, processing, and vis
   - `basic_loading.py`: Functions to load match metadata and tracking data.
 - **`features/`**: Feature engineering and aggregation logic.
   - `DynamicEventsAggregator.py`: Logic for summarizing dynamic event categories.
-  - `PhasesOfPlayAggregator.py`: Framework for aggregating data by game phases.
-- **`visualization/`**: Reusable plotting and reporting functions.
-  - `head2head_viz.py`: High-fidelity visualization for team comparisons.
+  - `PhasesOfPlayAggregator.py`: Framework for aggregating data by phases of play.
+- **`visualization/`**: Folder with reusable plotting and reporting functions.
+  - `head2head_viz.py`: Head to head plot to compare two teams or players on key metrics
+  - `sectioned_summary_table_viz.py`: Visualisation to compare multiple metrics against different players and organize them by custom categories
 
 ## 🛠️ Usage
 

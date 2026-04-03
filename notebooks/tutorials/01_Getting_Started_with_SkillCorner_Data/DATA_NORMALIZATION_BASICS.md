@@ -1,4 +1,4 @@
-# 📊 Data Normalization & Aggregation Basics
+# 📖 Data Normalization & Aggregation Basics
 
 To perform fair comparisons between players and teams using SkillCorner data, it is essential to normalize for playing time and match context. This guide covers the foundational principles used in our "Getting Started" tutorials.
 
