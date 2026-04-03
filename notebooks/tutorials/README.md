@@ -1,6 +1,4 @@
-# 🎓 Learning Paths
-
-⬅️ [Back to Main Repository README](../../README.md)
+# 🎓 Learning SkillCorner Open Data
 
 Welcome to the SkillCorner Open Data tutorials. We've organized our tutorials into logical learning paths to help you navigate from foundational data concepts to advanced analytical workflows.
 
@@ -13,20 +11,20 @@ Welcome to the SkillCorner Open Data tutorials. We've organized our tutorials in
 
 | Tutorial | Description |
 | :------- | :---------- |
-| [**Data Normalization Basics**](01_Getting_Started_with_SkillCorner_Data/DATA_NORMALIZATION_BASICS.md) | Understanding P90/P60 normalization and filtering thresholds. |
-| [**Visualization with SkillCorner**](01_Getting_Started_with_SkillCorner_Data/Part1_Visualization_with_SkillCorner_Tutorial.ipynb) | Master the display of SkillCorner data using high-fidelity visualization techniques. |
-| [**Multiple Metrics & Z-Scores**](01_Getting_Started_with_SkillCorner_Data/Part2_Multiple_Metrics_and_Z_Scores_Tutorial.ipynb) | Learn how to normalize and compare different mechanical metrics. |
----
+| [**Data Normalization Basics**](01_Getting_Started_with_SkillCorner_Data/DATA_NORMALIZATION_BASICS.md) | Understanding key principles on filtering, P90/P60 normalization and thresholds. |
+| [**Visualization with SkillCorner**](01_Getting_Started_with_SkillCorner_Data/Part1_Visualization_with_SkillCorner_Tutorial.ipynb) | Master key visuals for SkillCorner data using our proprietary library. |
+| [**Multiple Metrics & Z-Scores**](01_Getting_Started_with_SkillCorner_Data/Part2_Multiple_Metrics_and_Z_Scores_Tutorial.ipynb) | Learn how to use z-scores to handle multiple metrics at the same time and build archetypes. |
+
 
 ## 🧠 Path 02: Working with Game Intelligence & Dynamic Events
 *Deep dive into the contextual data layers that define the narrative of a match.*
 
 | Tutorial                                                                                                                                                                                   | Description |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :---------- |
-| [**Part 1: Aggregating Dynamic Events**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part1_Aggregating_Dynamic_Events_Tutorial.ipynb)                                             | Summarize and process SkillCorner dynamic event categories. |
-| [**Part 2: Aggregating Phases of Play**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part2_Data_Aggregating_Phases_of_Play_Tutorial.ipynb)                                        | Using the PHASES OF PLAY framework to understand match context. |
-| [**Part 3: Off-ball Runs & Pitch Viz**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part4_Offball_Runs_Pitch_visualization.ipynb)                                                 | Visualizing runs and positioning on the pitch using tracking data. |
-| [**Part 4: Merging Events & Tracking**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part3_Merging_Dynamic_Events_and_Tracking_Data_Tutorial.ipynb)                                | Synchronizing discrete event data with continuous tracking streams. |
+| [**Part 1: Aggregating Dynamic Events**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part1_Aggregating_Dynamic_Events_Tutorial.ipynb)                                             | Aggregate and process SkillCorner dynamic event. |
+| [**Part 2: Aggregating Phases of Play**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part2_Data_Aggregating_Phases_of_Play_Tutorial.ipynb)                                        | Aggregating phases of play at team level. |
+| [**Part 3: Off-ball Runs & Pitch Viz**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part4_Offball_Runs_Pitch_visualization.ipynb)                                                 | Visualizing runs and positioning on the pitch using dynamic event level data. |
+| [**Part 4: Merging Events & Tracking**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part3_Merging_Dynamic_Events_and_Tracking_Data_Tutorial.ipynb)                                | Synchronizing dynamic event data with continuous tracking streams. |
 | [**Part 5: Animated 2D Video**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part5_Animated_2D_Video_From_Tracking_And_Events.ipynb)                                               | Generating animated 2D visualizations from tracking and event data. |
 | [**Part 6: Build Your Own Metric (Cutbacks Example)**](02_Working_with_Game_Intelligence_and_Dynamic_Events/Part6_BuildYourOwnMetric_Detecting_and_Evaluating_Cutback_Opportunities.ipynb) | Designing custom metrics to detect and evaluate cutback opportunities. |
 

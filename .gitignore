@@ -18,3 +18,7 @@ archive/
 notebooks/exploratory/
 
 .agents/
+
+# MkDocs
+site/
+.cache/
