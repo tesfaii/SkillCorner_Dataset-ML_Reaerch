@@ -92,7 +92,7 @@ For detailed information on phases of play, refer to this [documentation](https:
 
 ## ⚠️ Limitations
 
-### TRACKING
+TRACKING
 * Some data points are erroneous. Around 97% of the player identity we provide are accurate.
 * Some speed or acceleration smoothing and control should be applied to the raw data.
 
@@ -103,7 +103,7 @@ We've organized our tutorials into logical learning paths to help you navigate t
 * **Path 01: Getting Started with SkillCorner Data** - Focusing on foundational performance data and basic normalization workflows.
 * **Path 02: Working with Game Intelligence & Dynamic Events** - Deep dives into contextual data layers (Dynamic Events, Phases of Play, Off-ball Runs, Animations, and Custom Metrics).
 * **Path 03: Basics of Tracking** - Working directly with raw X/Y coordinates and spatial data formats.
-* **Path 04: Visualization Bank
+* **Path 04: Visualization Bank** - Innovative fun visualizations
 
 Additionally, reusable Python code for loading and modeling data has been organized into the [**`src/`**](src/README.md) directory. SkillCorner customers will also find commented code they can use to connect to their match_ids using their credentials.
 
