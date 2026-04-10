@@ -3,6 +3,7 @@ site_url: https://SkillCorner.github.io/opendata/
 
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -36,6 +37,7 @@ plugins:
   - mkdocs-jupyter:
       execute: false
       include_requirejs: true
+      include_source: true
 
 nav:
   - Home: index.md
