@@ -1,6 +1,11 @@
 site_name: SkillCorner Open Data
 site_url: https://SkillCorner.github.io/opendata/
 
+extra:
+  analytics:
+    provider: google
+    property: G-PQJ1ZDTZEW
+
 theme:
   name: material
   custom_dir: docs/overrides
