@@ -132,6 +132,15 @@ To maintain clarity and structure, please follow this framework when adding new 
 * We intend to open source more tooling to help people get started with our data.
 * We are not an event data provider ourself, though we intend to provide some tools to synchronize tracking and event data, that you'll be able to use if you can access event data.
 
+## PySport competition results
+
+* [Hadi Sotudeh - Analytics Cup Research](https://github.com/hadisotudeh/analytics_cup_research)
+* [Zachary Cochran - SkillCorner Analytics Cup Tracking Data Research](https://github.com/zcochran4275/skill_corner_analytics_cup_tracking_data_research)
+* [Amar Shah - Analytics Cup Research](https://github.com/amarshah1999/analytics_cup_research)
+* [Emaly Vatne - Analytics Cup Research VatneEmaly](https://github.com/emalyvatne/analytics_cup_research_VatneEmaly)
+* [2nzi - SkillCorner Analytics](https://github.com/2nzi/skillcorner-analytics)
+* [Data Kicks - Dynamic Skills Finder](https://github.com/Data-Kicks/Dynamic-Skills-Finder)
+
 ## Contact us
 
 * If you have some feedback, some project research that you want to conduct with our data, reach us on [our website](https://skillcorner.com/#contact-section) or on [Twitter](https://twitter.com/skillcorner)
