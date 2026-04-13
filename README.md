@@ -28,7 +28,7 @@ The `data` directory contains:
 
 * `matches.json` file with basic information about the match. Using this file, pick the `id` of your match of interest.
 * `matches` folder with one folder for each match (named with its `id`).
-* `aggregates` folder with a csv for the season level, aggregated data for AUS midifielders in 2024/2025.
+* `aggregates` folder with CSVs for season-level, aggregated data (Physical, Off-Ball Runs, and Passing) for the AUS 1 League in 2024/2025.
 
 For each match, there are four files files:
 
@@ -65,10 +65,14 @@ The x axis is the long side and the y axis in the short side.
 Here is an illustration for a field of size 105mx68m.
 ![Field modelization for a pitch of size 105x68](assets/field.jpg)
 
-### Physical Data (Aggregates)
+### 📊 Season Aggregates (Physical, OBR, Passing)
 
-The physical data is aggregated at a player-group-season level and contains the key metrics from our physical data. [documentation here](https://skillcorner.crunch.help/en/glossaries/physical-data-glossary)
-The dataset is filtered for performances above 60 mins only (sub players wouldn't appear unless they've played more than 60mins)
+The aggregate data is provided at a player-season level and contains key metrics across three categories:
+- **Physical**: Metrics such as PSV99, high-intensity counts, and distance covered.
+- **Off-Ball Runs (OBR)**: Tactical metrics identifying types of runs and their outcomes.
+- **Passing**: Aggregated passing volume and efficiency metrics.
+
+The datasets are filtered for performances above 60 minutes only. For more details, refer to the [Physical Data Glossary](https://skillcorner.crunch.help/en/glossaries/physical-data-glossary).
 
 
 ### ⚡ Dynamic Event Data

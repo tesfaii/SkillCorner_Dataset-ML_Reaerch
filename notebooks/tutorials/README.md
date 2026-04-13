@@ -14,6 +14,7 @@ Welcome to the SkillCorner Open Data tutorials. We've organized our tutorials in
 | [**Data Normalization Basics**](01_Getting_Started_with_SkillCorner_Data/DATA_NORMALIZATION_BASICS.md) | Understanding key principles on filtering, P90/P60 normalization and thresholds. |
 | [**Visualization with SkillCorner**](01_Getting_Started_with_SkillCorner_Data/Part1_Visualization_with_SkillCorner_Tutorial.ipynb) | Master key visuals for SkillCorner data using our proprietary library. |
 | [**Multiple Metrics & Z-Scores**](01_Getting_Started_with_SkillCorner_Data/Part2_Multiple_Metrics_and_Z_Scores_Tutorial.ipynb) | Learn how to use z-scores to handle multiple metrics at the same time and build archetypes. |
+| [**Building Striker Archetypes**](01_Getting_Started_with_SkillCorner_Data/Part3_Building_Striker_Archetypes_Tutorial.ipynb) | Combine multiple datasets to build tactical profiles for specific roles. |
 
 
 ## 🧠 Path 02: Working with Game Intelligence & Dynamic Events
