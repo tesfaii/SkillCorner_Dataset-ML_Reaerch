@@ -52,6 +52,7 @@ nav:
       - Normalization Basics: notebooks/tutorials/01_Getting_Started_with_SkillCorner_Data/DATA_NORMALIZATION_BASICS.md
       - Viz Tutorial: notebooks/tutorials/01_Getting_Started_with_SkillCorner_Data/Part1_Visualization_with_SkillCorner_Tutorial.ipynb
       - Z-Scores: notebooks/tutorials/01_Getting_Started_with_SkillCorner_Data/Part2_Multiple_Metrics_and_Z_Scores_Tutorial.ipynb
+      - Striker Archetypes: notebooks/tutorials/01_Getting_Started_with_SkillCorner_Data/Part3_Building_Striker_Archetypes_Tutorial.ipynb
     - 'Path 02: Game Intelligence':
       - 'Part 1: Aggregating Events': notebooks/tutorials/02_Working_with_Game_Intelligence_and_Dynamic_Events/Part1_Aggregating_Dynamic_Events_Tutorial.ipynb
       - 'Part 2: Phases of Play': notebooks/tutorials/02_Working_with_Game_Intelligence_and_Dynamic_Events/Part2_Data_Aggregating_Phases_of_Play_Tutorial.ipynb
